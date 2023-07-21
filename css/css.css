@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite ;
+    font-family: Pacifico, cursive;
+}
+.header h1{
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+.header .hover{
+    background-color: rgb(254, 194, 96);
+    z-index: -1 !important;
+    transition: 0.5s;
+    top: 75% !important;
+    width: 23%;
+}
+
+.header:hover .hover{
+    top: 65% !important;
+    padding-top: 30px !important;
+    
+}
+.dot-border{
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+
+label{
+    color: orangered;
+    font-size: 1.2rem;
+}
+.btn-orange{
+    background-color: orangered  !important;
+}
